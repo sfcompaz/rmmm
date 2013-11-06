@@ -3,6 +3,9 @@ Player
 id
 number
 egf (-> egf.id)
+startpoints (MacMahon)
+active (enum: playing, not playing, reserve)
+round list (availability per round)
 
 Pair
 ====
@@ -16,7 +19,10 @@ Pairing
 id
 pair (pair.id)
 round (round.id)
+extra (handicap, time limits)
 board
+event list
+result
 
 Result
 ======
@@ -29,13 +35,54 @@ datetime
 Round
 =====
 id
-pairings (linked list)
-location
+pairing list
+event list
 datetime
+
+Poule
+=====
+id
+name
+criteria (strength, availability)
+player list
+location list
+board list
 
 Rules
 =====
 SOSformula   (rules for Bye, R)
 SODOSformula
+Time rules (e.g. longer time on higher boards)
+Round rules (commitment per round for top group)
+MacMahon rules (bar, list ratings/macmahon points)
+
+Location
+========
+Address, venue, room
+Priority
+board list
+
+Event
+=====
+Location
+Datetime
+Endtime
+
+Contact
+=======
+Name
+Address
+Phone
+e-mail
+
+Tournament
+==========
+contact list
+player list
+location list
+round list
+rules list
+poule list
+datetime list
 
 
