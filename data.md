@@ -1,11 +1,12 @@
 Player
 ======
-id
-number
-egf (-> egf.id)
-startpoints (MacMahon)
-active (enum: playing, not playing, reserve)
-round list (availability per round)
+- id
+- number
+- egf (-> egf.id)
+- startpoints (MacMahon)
+- previous (multi-tournament or playoff)
+- active (enum: playing, not playing, reserve)
+- round list (availability per round)
 
 Pair
 ====
@@ -52,6 +53,10 @@ Rules
 =====
 SOSformula   (rules for Bye, R)
 SODOSformula
+Points rules (2-0, 1-1, 3-0)
+Tiebreaker order (NOW (Team), SOS-2, SOS-1, SOS, SODOS, SOSOS, ROS(CUSS), IROS).
+Komi
+Handicap
 Time rules (e.g. longer time on higher boards)
 Round rules (commitment per round for top group)
 MacMahon rules (bar, list ratings/macmahon points)
