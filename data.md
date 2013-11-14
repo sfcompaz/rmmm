@@ -1,12 +1,27 @@
-Player
-======
+Board
+=====
 - id
 - number
-- egf (-> egf.id)
+- room
+
+Player
+======
+- id (md5sum)
+- name (displayName)
+- number
 - startpoints (MacMahon)
 - previous (multi-tournament or playoff)
 - active (enum: playing, not playing, reserve)
 - round list (availability per round)
+
+Egf
+===
+- id (number egf)
+- Player (id)
+- rating
+- name
+- picture
+- ... getEgf(id)
 
 Pair
 ====
@@ -36,7 +51,7 @@ Result
 Round
 =====
 - id
-- pairing list
+- pair list
 - event list
 - datetime
 
@@ -61,8 +76,15 @@ Rules
 - Round rules (commitment per round for top group)
 - MacMahon rules (bar, list ratings/macmahon points)
 
+Duration
+========
+- Start time (datetime)
+- End time (datetime)
+
 Location
 ========
+- id
+- Name
 - Address, venue, room
 - Priority
 - board list
@@ -70,15 +92,16 @@ Location
 Event
 =====
 - Location
-- Datetime
-- Endtime
+- Duration
 
 Contact
 =======
+- id
 - Name
 - Address
 - Phone
 - e-mail
+- Player (id)
 
 Tournament
 ==========
