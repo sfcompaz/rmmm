@@ -1,0 +1,5 @@
+#include "hash.ih"
+
+Hash::
+{
+}
