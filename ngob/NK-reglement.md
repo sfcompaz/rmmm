@@ -3,28 +3,27 @@
 
 Op basis van de regels van de Koninklijke Nederlandse Schaakbond
 
-1. Definities
-
-1.1 Weerstandspunten
-    De weerstandspunten (WP) van een speler is de som van de gescoorde punten die zijn tegenstanders
-    in de tot op dat moment gespeelde ronden hebben behaald.
-1.2 Sonneborn-Berger score
-    De Sonneborn-Berger (SB) score van een speler is de som van de gescoorde punten van de
-    tegenstanders van wie de betreffende speler heeft, vermeerderd met de halve som van de gescoorde
-    punten van die tegenstanders waartegen hij jigo heeft gespeeld.
-1.3 Scoregroep
-    Spelers met evenveel punten vormen een scoregroep.
-1.4 Wachtkamer
-    Bestaat een scoregroep uit een oneven aantal spelers, dan zal minimaal een speler ingedeeld moeten
-    worden tegen een speler met een lagere score. Ook in een scoregroep met een even aantal spelers 
-    kan het voorkomen dat spelers binnen hun eigen scoregroep niet indeelbaar zijn. Spelers uit een 
-    scoregroep die niet indeelbaar zijn, komen tijdelijk in de wachtkamer en van daaruit in de 
-    eerstvolgende scoregroep.
-1.5 Kleursaldo
-    Het kleursaldo van een speler is het aantal malen dat de betrokkene met zwart heeft gespeeld,
-    verminderd met het aantal malen dat hij met wit heeft gespeeld.
-1.6 Lotingsnummer
-    Voor de indeling van de eerste ronde wordt aan iedere speler een lotingsnummer toegekend.
+1.  Definities
+    1. Weerstandspunten
+       De weerstandspunten (WP) van een speler is de som van de gescoorde punten die zijn tegenstanders
+       in de tot op dat moment gespeelde ronden hebben behaald.
+    2. Sonneborn-Berger score
+       De Sonneborn-Berger (SB) score van een speler is de som van de gescoorde punten van de
+       tegenstanders van wie de betreffende speler heeft, vermeerderd met de halve som van de gescoorde
+       punten van die tegenstanders waartegen hij jigo heeft gespeeld.
+    3. Scoregroep
+       Spelers met evenveel punten vormen een scoregroep.
+    4. Wachtkamer
+       Bestaat een scoregroep uit een oneven aantal spelers, dan zal minimaal een speler ingedeeld moeten
+       worden tegen een speler met een lagere score. Ook in een scoregroep met een even aantal spelers 
+       kan het voorkomen dat spelers binnen hun eigen scoregroep niet indeelbaar zijn. Spelers uit een 
+       scoregroep die niet indeelbaar zijn, komen tijdelijk in de wachtkamer en van daaruit in de 
+       eerstvolgende scoregroep.
+    5. Kleursaldo
+       Het kleursaldo van een speler is het aantal malen dat de betrokkene met zwart heeft gespeeld,
+       verminderd met het aantal malen dat hij met wit heeft gespeeld.
+    6. Lotingsnummer
+       Voor de indeling van de eerste ronde wordt aan iedere speler een lotingsnummer toegekend.
 
 2. Klassering
 
