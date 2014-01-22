@@ -13,8 +13,8 @@ Op basis van de regels van de Koninklijke Nederlandse Schaakbond
     2. Sonneborn-Berger score
 
        De Sonneborn-Berger (SB) score van een speler is de som van de gescoorde punten van de
-       tegenstanders van wie de betreffende speler heeft, vermeerderd met de halve som van de gescoorde
-       punten van die tegenstanders waartegen hij jigo heeft gespeeld.
+       tegenstanders van wie de betreffende speler heeft gewonnen, vermeerderd met de halve som van de 
+       gescoorde punten van die tegenstanders waartegen hij jigo heeft gespeeld.
 
     3. Scoregroep
 
@@ -116,7 +116,7 @@ Op basis van de regels van de Koninklijke Nederlandse Schaakbond
         c)  Het kleursaldo van de hoger geklasseerde speler op of dichterbij 0 brengen.
         d)  De hoger geklasseerde speler alterneert t.o.v. de voorgaande ronde.
 
-7 Slotopmerkingen
+7. Slotopmerkingen
 
     1. Indien bij het maken van een indeling het aantal in te delen spelers oneven is, zal na het doorlopen
        van de indelingsprocedure een speler in de wachtkamer eindigen waarvoor geen tegenstander meer 
