@@ -16,10 +16,13 @@ Player
 
 Egf
 ===
-- id (number egf)
+- PIN (number egf) (EgdPin)
 - Player (id)
-- rating
-- name
+- Grade (GoLevel)
+- rating (Rating)
+- name (FirstName Surname) | AsianName
+- country (Country)
+- club (Club)
 - picture
 - ... getEgf(id)
 
