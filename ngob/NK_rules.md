@@ -9,7 +9,7 @@ Based on rules of the Dutch Chess Association
     1. Sum of opponent's scores (**SOS**) is the sum of all scored points of the players opponents
        up to the current round.
 
-    2. Sonneborn-berger score (**SBS**) is the sum of the scored points of the player's opponents 
+    2. Sum of defeated opponent's score (**SODOS**) is the sum of the scored points of the player's opponents 
        the player has defeated plus half of the scored points of the player's opponents that
        ended in jigo.
 
@@ -35,11 +35,11 @@ Based on rules of the Dutch Chess Association
     1. For every pairing the players are ordered according to the following criteria:
        a) Scored points (higher to lower)
        b) SOS (higher to lower)
-       c) SBS (higher to lower)
+       c) SODOS (higher to lower)
        d) Drawing number (lower to higher)
 
     2. A player that cannot be paired because the number of players is odd, gets a regulatory point.
-    3. For the calculation of SBS and SOS all regulatory points will be counted as a jigo with 
+    3. For the calculation of SODOS and SOS all regulatory points will be counted as a jigo with 
        the players themselves.
     4. If a game ends without result (repetition of moves), it will be counted as jigo.
 
@@ -69,13 +69,13 @@ Based on rules of the Dutch Chess Association
           waiting room of a higher score-group;
        b) Minimize the number of players that would end up in the waiting room of the lower score-group;
        c) Players with the highest SOS;
-       d) Players with the highest SBS;
+       d) Players with the highest SODOS;
        e) Players with the lowest drawing numbers.
     5. Within the remaining players a pairing is made, using the order of 2.1 above. Starting with
        the top player, opponents are selected in accordance with 3.1 and 3.3 above. Use the
        following criteria:
        a) Lowest SOS;
-       b) Lowest SBS;
+       b) Lowest SODOS;
        c) Highest drawing number.
     6. If the pairing of the last players in the scoring-group fails, the previous pairing is 
        cut open again; resume with the top player at 4.5 above, starting with the next opponent.
@@ -119,7 +119,7 @@ Based on rules of the Dutch Chess Association
        is decided by:
        a) Number of points. If case of a tie, the prized will be shared;
        b) SOS
-       c) SBS
+       c) SODOS
        d) Result between the players, if and only if all players in a tie have met.
        e) Draw
     6. Once the pairing has been published, it cannot be changed, unless rule 3.1 or 3.2 is not met.
