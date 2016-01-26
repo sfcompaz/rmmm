@@ -16,6 +16,7 @@
   </h4>
   <table width="100%">
     <tr class="headderrow">
+      <td>Nr</td>
       <td>Black</td>
       <td>White</td>
       <td>Result</td>
@@ -30,6 +31,7 @@
 
 <xsl:template match="//Pairing[../RoundNumber=/Tournament/CurrentRoundNumber]">
   <tr class="pairing">
+    <td><xsl:value-of select="BoardNumber" /></td>
     <xsl:call-template name="goplayer">
       <xsl:with-param name="playerid">
         <xsl:value-of select="Black" />
