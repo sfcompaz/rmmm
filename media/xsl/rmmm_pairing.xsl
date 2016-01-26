@@ -3,16 +3,16 @@
 <xsl:output method="html" indent="yes" />
 
 <xsl:template match="/">
-  <div id="wallist">
+  <div id="pairing">
     <xsl:apply-templates />
   </div>
 </xsl:template>
 
 <xsl:template match="Tournament">
   <h4>
-    <xsl:value-of select="Name"/>      
+    <xsl:value-of select="Name"/>
     Round
-    <xsl:value-of select="CurrentRoundNumber"/>      
+    <xsl:value-of select="CurrentRoundNumber"/>
   </h4>
   <table width="100%">
     <tr class="headderrow">
