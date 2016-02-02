@@ -25,19 +25,15 @@
   </table>
 </xsl:template>
 
-<xsl:template match="TournamentRound[RoundNumber=/Tournament/CurrentRoundNumber]">
-  <xsl:apply-templates />
-</xsl:template>
-
-<xsl:template match="//Pairing[../RoundNumber=/Tournament/CurrentRoundNumber]">
+<xsl:template match="Pairing[../RoundNumber=/Tournament/CurrentRoundNumber]">
   <tr class="pairing">
     <td><xsl:value-of select="BoardNumber" /></td>
-    <xsl:call-template name="goplayer">
+    <xsl:call-template name="format-player">
       <xsl:with-param name="playerid">
         <xsl:value-of select="Black" />
       </xsl:with-param>
     </xsl:call-template>
-    <xsl:call-template name="goplayer">
+    <xsl:call-template name="format-player">
       <xsl:with-param name="playerid">
         <xsl:value-of select="White" />
       </xsl:with-param>
@@ -46,20 +42,28 @@
   </tr>
 </xsl:template>
 
-<xsl:template name="goplayer">
+<xsl:template name="format-player">
   <xsl:param name="playerid" />
+  <xsl:variable name="playtree" select="//GoPlayer[../Id=$playerid]"/>
   <td>
-    <xsl:call-template name="firstname">
+    <xsl:call-template name="remove-underscores">
       <xsl:with-param name="str">
-        <xsl:value-of select="//GoPlayer[../Id=$playerid]/FirstName"/>
+        <xsl:value-of select="$playtree/FirstName"/>
       </xsl:with-param>
     </xsl:call-template>
     <xsl:text> </xsl:text>
-    <xsl:value-of select="//GoPlayer[../Id=$playerid]/Surname"/>
+    <xsl:call-template name="remove-underscores">
+      <xsl:with-param name="str">
+          <xsl:value-of select="$playtree/Surname"/>
+      </xsl:with-param>
+    </xsl:call-template>
+    <xsl:text> (</xsl:text>
+    <xsl:value-of select="$playtree/GoLevel"/>
+    <xsl:text>)</xsl:text>
   </td>
 </xsl:template>
 
-<xsl:template name="firstname">
+<xsl:template name="remove-underscores">
   <xsl:param name="str"/>
   <xsl:value-of select="translate($str, '_', ' ')" />
 </xsl:template>
